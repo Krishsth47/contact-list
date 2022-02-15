@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 0;
+}
+
+.wrapper {
+  background: linear-gradient(rgb(133, 159, 74), rgb(142, 128, 155));
+  min-height: 100vh;
+}
+
+i {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: rgba(160, 12, 12, 0.5);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
