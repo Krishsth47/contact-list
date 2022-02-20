@@ -1,5 +1,6 @@
 const listElm = document.querySelector("#list");
 const apiUrl = "https://randomuser.me/api/?";
+const userCountElm = document.querySelector("#user-count");
 
 let userArgs = [];
 
@@ -26,6 +27,8 @@ const displayUser = (args = userArgs) => {
 </div>
 `;
   });
+
+  userCountElm.innerHTML = args.length;
   listElm.innerHTML = str;
 };
 
